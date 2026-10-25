@@ -1,0 +1,20 @@
+{
+  "version": "echo 2026.10",
+  "platform": "Linux",
+  "tools": [
+    {"key": "dnsrecon", "name": "DNSRecon", "repository": "https://github.com/darkoperator/dnsrecon", "install_method": "apt package; official source fallback may require Python 3.12+"},
+    {"key": "subfinder", "name": "Subfinder", "repository": "https://github.com/projectdiscovery/subfinder", "install_method": "go install github.com/projectdiscovery/subfinder/v2/cmd/subfinder@latest"},
+    {"key": "dnsx", "name": "dnsx", "repository": "https://github.com/projectdiscovery/dnsx", "install_method": "go install github.com/projectdiscovery/dnsx/cmd/dnsx@latest"},
+    {"key": "httpx", "name": "ProjectDiscovery httpx", "repository": "https://github.com/projectdiscovery/httpx", "install_method": "go install github.com/projectdiscovery/httpx/cmd/httpx@latest"},
+    {"key": "katana", "name": "Katana", "repository": "https://github.com/projectdiscovery/katana", "install_method": "go install github.com/projectdiscovery/katana/cmd/katana@latest"},
+    {"key": "nmap", "name": "Nmap", "repository": "https://github.com/nmap/nmap", "install_method": "apt package (Nmap GitHub is a mirror of the official SVN source)"},
+    {"key": "naabu", "name": "Naabu", "repository": "https://github.com/projectdiscovery/naabu", "install_method": "go install github.com/projectdiscovery/naabu/v2/cmd/naabu@latest"},
+    {"key": "nuclei", "name": "Nuclei", "repository": "https://github.com/projectdiscovery/nuclei", "install_method": "go install github.com/projectdiscovery/nuclei/v3/cmd/nuclei@latest"},
+    {"key": "ffuf", "name": "ffuf", "repository": "https://github.com/ffuf/ffuf", "install_method": "apt package or go install github.com/ffuf/ffuf/v2@latest"},
+    {"key": "feroxbuster", "name": "Feroxbuster", "repository": "https://github.com/epi052/feroxbuster", "install_method": "apt package or official release asset with SHA-256 validation"},
+    {"key": "gobuster", "name": "Gobuster", "repository": "https://github.com/OJ/gobuster", "install_method": "apt package or go install github.com/OJ/gobuster/v3@latest"},
+    {"key": "nikto", "name": "Nikto", "repository": "https://github.com/sullo/nikto", "install_method": "apt package or shallow clone from official repository"},
+    {"key": "arjun", "name": "Arjun", "repository": "https://github.com/s0md3v/arjun", "install_method": "apt package or pipx install arjun"},
+    {"key": "sqlmap", "name": "sqlmap", "repository": "https://github.com/sqlmapproject/sqlmap", "install_method": "apt package or shallow clone from official repository"}
+  ]
+}

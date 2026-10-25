@@ -1,0 +1,11 @@
+{
+  "platform": "linux-only",
+  "max_tool_runtime_seconds_default": 3600,
+  "max_tool_runtime_seconds_min": 60,
+  "max_tool_runtime_seconds_max": 7200,
+  "retry_count_default": 0,
+  "execution_mode": "sequential",
+  "output_directory": "outputs",
+  "default_selected_tools": ["dnsrecon", "subfinder", "dnsx", "httpx", "katana", "nmap", "naabu", "nuclei"],
+  "higher_traffic_tools_default_off": ["ffuf", "feroxbuster", "gobuster", "nikto", "arjun", "sqlmap"]
+}
